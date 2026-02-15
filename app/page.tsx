@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from "react";
-import Image from "next/image";
 
 export default function Home() {
   const [form, setForm] = useState({
@@ -44,12 +43,10 @@ export default function Home() {
     <main className="bg-gray-100 text-gray-900 min-h-screen">
       {/* Navbar */}
       <header className="flex justify-between items-center px-8 py-6 border-b bg-white/95 backdrop-blur">
-        <Image
+        <img
           src="/logo.png"
-          width={200}
-          height={40}
-          priority
           alt="NutrionX logo"
+          className="h-10 w-auto max-w-[200px] object-contain"
         />
         <a
           href="#beta"
