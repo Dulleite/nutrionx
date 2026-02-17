@@ -45,8 +45,8 @@ export default function Home() {
       <header className="flex justify-between items-center px-8 py-6 border-b bg-white/95 backdrop-blur">
         <img
           src="/logo.png"
-          alt="NutrionX logo"
-          className="h-10 w-auto max-w-[200px] object-contain"
+          alt="NutrionX"
+          className="max-w-[100px] object-contain"
         />
         <a
           href="#beta"
