@@ -43,11 +43,12 @@ export default function Home() {
     <main className="bg-gray-100 text-gray-900 min-h-screen">
       {/* Navbar */}
       <header className="flex justify-between items-center px-8 py-6 border-b bg-white/95 backdrop-blur">
-        <img
-          src="/logo.png"
-          alt="NutrionX"
-          className="max-w-[100px] object-contain"
-        />
+        <div className="text-xl font-extrabold tracking-tight">
+          <span className="text-green-600">Nutri</span>
+          <span className="bg-gradient-to-r from-gray-300 to-gray-500 bg-clip-text text-transparent">
+            onX
+          </span>
+        </div>
         <a
           href="#beta"
           className="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition"
